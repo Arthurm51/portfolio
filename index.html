@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arthur Machado — Analista de QA</title>
+  <meta
+    name="description"
+    content="Arthur Vieira Machado — Analista de Qualidade de Software (QA), especialista em automação de testes web e mobile."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="#top">AM<span class="cursor" aria-hidden="true"></span></a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#sobre">sobre</a>
+        <a href="#experiencia">experiência</a>
+        <a href="#skills">skills</a>
+        <a href="#projetos">projetos</a>
+        <a href="#contato">contato</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="lang-switch" href="en/index.html" title="Switch to English" hreflang="en">EN</a>
+        <a class="btn btn--primary nav-cta" href="assets/cv-arthur-machado.pdf" target="_blank" rel="noopener">
+          Baixar CV
+        </a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Alternar tema claro/escuro">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.5" />
+            <path d="M12 3v2.2M12 18.8V21M21 12h-2.2M5.2 12H3M18.4 5.6l-1.55 1.55M7.15 16.85l-1.55 1.55M18.4 18.4l-1.55-1.55M7.15 7.15 5.6 5.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M20 14.2A8.2 8.2 0 1 1 9.8 4a6.6 6.6 0 0 0 10.2 10.2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav">
+          menu
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" hidden aria-label="Navegação mobile">
+    <div class="wrap">
+      <a href="#sobre">sobre</a>
+      <a href="#experiencia">experiência</a>
+      <a href="#skills">skills</a>
+      <a href="#projetos">projetos</a>
+      <a href="#contato">contato</a>
+      <a href="assets/cv-arthur-machado.pdf" target="_blank" rel="noopener">baixar cv</a>
+      <a href="en/index.html" hreflang="en">english version</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-intro">
+          <div class="avatar" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="8.5" r="3.6" stroke="currentColor" stroke-width="1.5" />
+              <path d="M4.5 20c1.4-3.6 4.4-5.5 7.5-5.5s6.1 1.9 7.5 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+            </svg>
+          </div>
+          <p class="eyebrow">analista de qualidade de software</p>
+          <h1>Arthur Vieira<br />Machado</h1>
+          <p>
+            5+ anos garantindo que o software funcione antes de chegar ao usuário —
+            automação web e mobile, CI/CD e estratégia Shift-Left do início ao fim do ciclo.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#experiencia">Ver experiência</a>
+            <a class="btn btn--ghost" href="assets/cv-arthur-machado.pdf" target="_blank" rel="noopener">Baixar CV</a>
+          </div>
+        </div>
+
+        <div class="terminal" role="img" aria-label="Terminal simulando a execução de uma suíte de testes com o resumo profissional de Arthur Machado">
+          <div class="terminal-titlebar">
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="terminal-dot"></span>
+            <span class="label">zsh — run-tests.sh</span>
+          </div>
+          <div class="terminal-body">
+<span class="terminal-line" style="animation-delay:.05s"><span class="prompt">$</span> whoami</span>
+<span class="terminal-line" style="animation-delay:.2s">Arthur Vieira Machado</span>
+<span class="terminal-line" style="animation-delay:.35s"><span class="prompt">$</span> ./run-tests.sh --suite=carreira</span>
+<span class="terminal-line" style="animation-delay:.5s"><span class="ok">✓</span> 5+ anos em testes manuais e automatizados</span>
+<span class="terminal-line" style="animation-delay:.65s"><span class="ok">✓</span> Selenium · Cypress · Playwright · Appium · Maestro</span>
+<span class="terminal-line" style="animation-delay:.8s"><span class="ok">✓</span> CI/CD, BDD (Gherkin) e Shift-Left</span>
+<span class="terminal-line" style="animation-delay:.95s"><span class="ok">✓</span> Times internacionais, comunicação em inglês</span>
+<span class="terminal-line" style="animation-delay:1.1s"><span class="comment"># 4 suites | 4 passed | 0 failed</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">sobre</p>
+          <h2 class="section-title">Qualidade não é a última etapa, é parte do processo</h2>
+        </div>
+
+        <div class="about-body reveal">
+          <div class="about-text">
+            <p>
+              Bacharel em Ciências da Computação e Analista de Qualidade de Software
+              com mais de 5 anos de experiência em testes manuais e automatizados.
+              Atuo com Selenium, Cypress, Playwright, Maestro e Appium — cobrindo
+              testes funcionais, de regressão, integração, unitários, carga, stress,
+              smoke e performance.
+            </p>
+            <p>
+              Trabalho com metodologias ágeis (Scrum/Kanban) e DevOps, integrando testes
+              automatizados a pipelines de CI/CD. Fluente na criação de cenários BDD (Gherkin)
+              e na estratégia Shift-Left, levando qualidade para as fases iniciais do
+              desenvolvimento — antes que o bug vire produção.
+            </p>
+            <p>
+              Já atuei em times multiculturais e projetos internacionais, com comunicação
+              técnica em inglês no dia a dia.
+            </p>
+          </div>
+
+          <dl class="about-facts">
+            <div class="fact">
+              <dt>Localização</dt>
+              <dd>Brasil</dd>
+            </div>
+            <div class="fact">
+              <dt>Experiência</dt>
+              <dd>5+ anos em QA</dd>
+            </div>
+            <div class="fact">
+              <dt>Formação</dt>
+              <dd>Ciências da Computação — Atitus</dd>
+            </div>
+            <div class="fact">
+              <dt>Idiomas</dt>
+              <dd class="fact-list">
+                <span>Português — nativo</span>
+                <span>Inglês — intermediário</span>
+                <span>Espanhol — básico</span>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experiencia">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">experiência</p>
+          <h2 class="section-title">Pipeline de carreira</h2>
+        </div>
+
+        <div class="pipeline reveal">
+          <article class="pipeline-stage">
+            <div class="stage-head">
+              <span class="stage-role">Analista de Qualidade</span>
+              <span class="stage-org"><a href="https://www.mjvinnovation.com" target="_blank" rel="noopener">MJV Innovation</a></span>
+              <span class="stage-period">10/2025 — presente</span>
+            </div>
+            <p class="stage-summary">
+              Ciclo completo de testes com forte presença em Shift-Left, automação mobile
+              e integração contínua em pipelines Azure DevOps.
+            </p>
+            <ul class="stage-highlights">
+              <li>Automação de testes mobile com <strong>Appium</strong>.</li>
+              <li>Integração de testes automatizados em pipelines <strong>CI/CD (Azure DevOps)</strong>.</li>
+              <li>Testes mobile em app de Seguros com comunicação <strong>Open Insurance (OPIN)</strong>.</li>
+            </ul>
+          </article>
+
+          <article class="pipeline-stage">
+            <div class="stage-head">
+              <span class="stage-role">Analista de Qualidade</span>
+              <span class="stage-org"><a href="https://aircompany.ai" target="_blank" rel="noopener">Compass.UOL</a></span>
+              <span class="stage-period">10/2020 — 10/2025</span>
+            </div>
+            <p class="stage-summary">
+              Cinco anos de ciclo completo de testes em produtos de e-commerce e fintech,
+              com automação web, testes de API/banco de dados e atuação em times internacionais.
+            </p>
+            <ul class="stage-highlights">
+              <li>Automação de testes web com <strong>Selenium</strong>.</li>
+              <li>Cenários <strong>BDD (Gherkin)</strong> integrados ao ciclo ágil.</li>
+              <li>Testes de API REST (<strong>Postman</strong>) e banco de dados (<strong>DBeaver</strong>).</li>
+              <li>Pipelines CI/CD com Git, Jenkins e Azure DevOps.</li>
+            </ul>
+
+            <div class="stage-projects">
+              <div class="project-chip">
+                <h4><span class="logo-mark logo-mark--sm"><img src="assets/logos/beautycounter.png" alt="BeautyCounter" /></span>BeautyCounter USA</h4>
+                <p>E-commerce americano, time e gerência 100% em inglês. Maior atuação no produto Band of Beauty (BoB).</p>
+              </div>
+              <div class="project-chip">
+                <h4><span class="logo-mark logo-mark--sm"><img src="assets/logos/natura.png" alt="Natura" /></span>Natura</h4>
+                <p>Novo Modelo Fiscal (Oracle BCC/Dynamo) e migração de tecnologia. Único QA do time pioneiro em back-end Salesforce.</p>
+              </div>
+              <div class="project-chip">
+                <h4><span class="logo-mark logo-mark--sm"><img src="assets/logos/ailos.png" alt="Ailos" /></span>Ailos</h4>
+                <p>Testes back-end de cooperativa de crédito — APIs REST e banco de dados, incluindo bloqueio/desbloqueio de crédito.</p>
+              </div>
+              <div class="project-chip">
+                <h4>
+                  <span class="logo-mark logo-mark--sm"><img src="assets/logos/renner.jpg" alt="Renner" /></span
+                  ><span class="logo-mark logo-mark--sm"><img src="assets/logos/camicado.jpg" alt="Camicado" /></span>Renner · Camicado
+                </h4>
+                <p>Front-end e UX de e-commerce (banners, carrosséis); automação Selenium e validação de eventos via Firebase/GTM.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">skills</p>
+          <h2 class="section-title">Cobertura de testes (e de skills)</h2>
+        </div>
+
+        <div class="coverage-grid reveal">
+          <div class="coverage-card">
+            <h3>Automação de testes <span class="pct">alta</span></h3>
+            <div class="coverage-bar"><span style="width:95%"></span></div>
+            <div class="tag-list">
+              <span class="tag">Selenium</span>
+              <span class="tag">Cypress</span>
+              <span class="tag">Playwright</span>
+              <span class="tag">Appium</span>
+              <span class="tag">Maestro</span>
+            </div>
+          </div>
+
+          <div class="coverage-card">
+            <h3>API &amp; banco de dados <span class="pct">alta</span></h3>
+            <div class="coverage-bar"><span style="width:85%"></span></div>
+            <div class="tag-list">
+              <span class="tag">Postman</span>
+              <span class="tag">REST API</span>
+              <span class="tag">SQL</span>
+              <span class="tag">DynamoDB</span>
+              <span class="tag">DBeaver</span>
+            </div>
+          </div>
+
+          <div class="coverage-card">
+            <h3>Metodologias &amp; gestão <span class="pct">alta</span></h3>
+            <div class="coverage-bar"><span style="width:90%"></span></div>
+            <div class="tag-list">
+              <span class="tag">Agile / Scrum / Kanban</span>
+              <span class="tag">BDD (Gherkin)</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Shift-Left</span>
+            </div>
+          </div>
+
+          <div class="coverage-card">
+            <h3>Ferramentas <span class="pct">média-alta</span></h3>
+            <div class="coverage-bar"><span style="width:75%"></span></div>
+            <div class="tag-list">
+              <span class="tag">JIRA</span>
+              <span class="tag">Zephyr</span>
+              <span class="tag">Testmo</span>
+              <span class="tag">JUnit</span>
+              <span class="tag">TestNG</span>
+              <span class="tag">K6</span>
+              <span class="tag">Octane</span>
+            </div>
+          </div>
+
+          <div class="coverage-card">
+            <h3>Programação <span class="pct">média</span></h3>
+            <div class="coverage-bar"><span style="width:65%"></span></div>
+            <div class="tag-list">
+              <span class="tag">Java</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Python</span>
+              <span class="tag">Git</span>
+            </div>
+          </div>
+
+          <div class="coverage-card">
+            <h3>Idiomas <span class="pct">PT · EN · ES</span></h3>
+            <div class="coverage-bar"><span style="width:70%"></span></div>
+            <div class="tag-list">
+              <span class="tag">Português (nativo)</span>
+              <span class="tag">Inglês (intermediário)</span>
+              <span class="tag">Espanhol (básico)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projetos">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">projetos</p>
+          <h2 class="section-title">Casos de teste em aberto</h2>
+          <p style="margin-top: .5rem; color: var(--ink-muted);">
+            Espaço reservado para projetos pessoais e contribuições open source.
+            Edite <code>data/projects.js</code> para preencher com conteúdo real.
+          </p>
+        </div>
+
+        <div class="project-grid reveal" id="project-grid">
+          <!-- Preenchido via js/main.js a partir de data/projects.js -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">contato</p>
+          <h2 class="section-title">Bora conversar</h2>
+        </div>
+
+        <div class="contact-body reveal">
+          <p class="about-text">
+            Aberto a oportunidades como Analista de QA, especialmente em automação
+            de testes web e mobile. Entre em contato por qualquer um dos canais abaixo.
+          </p>
+          <div class="contact-links">
+            <a class="contact-card" href="mailto:arthurmachadoqa@gmail.com">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3.5 6.5h17v11h-17z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M4 7l8 6.5L20 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              arthurmachadoqa@gmail.com
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/in/arthurmachadoqa/" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 10.5v6M8 7.8v.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M11.5 16.5v-3.6c0-1.2.9-2 2-2s2 .8 2 2v3.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              LinkedIn
+            </a>
+            <a class="contact-card" href="https://github.com/Arthurm51" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 0 0-2.7 16.56c.43.08.58-.18.58-.4v-1.56c-2.37.51-2.87-1.02-2.87-1.02-.39-1-.95-1.26-.95-1.26-.77-.53.06-.52.06-.52.86.06 1.31.88 1.31.88.76 1.3 2 .93 2.48.7.08-.55.3-.93.54-1.14-1.89-.21-3.88-.95-3.88-4.2 0-.93.33-1.68.87-2.28-.09-.22-.38-1.1.08-2.28 0 0 .71-.23 2.34.87a8.1 8.1 0 0 1 4.26 0c1.63-1.1 2.34-.87 2.34-.87.46 1.18.17 2.06.08 2.28.54.6.87 1.35.87 2.28 0 3.26-1.99 3.98-3.89 4.19.31.27.58.8.58 1.6v2.37c0 .22.15.49.59.4A8.5 8.5 0 0 0 12 3.5z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>
+              GitHub
+            </a>
+            <a class="contact-card" href="assets/cv-arthur-machado.pdf" target="_blank" rel="noopener">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M7.5 11 12 15.5 16.5 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.5 17.5v2.2h15v-2.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Currículo (PDF)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> Arthur Vieira Machado</span>
+      <span>build local · sem dependências</span>
+    </div>
+  </footer>
+
+  <script src="data/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
