@@ -40,27 +40,22 @@ function renderProjects() {
     const badgeClass = project.status === "pass" ? "badge--pass" : "badge--pending";
     const badgeLabel = project.status === "pass" ? "PASS" : "PENDING";
 
-    const links = [
-      project.repoUrl ? `<a href="${project.repoUrl}" target="_blank" rel="noopener">repo</a>` : "",
-      project.demoUrl ? `<a href="${project.demoUrl}" target="_blank" rel="noopener">demo</a>` : "",
-    ]
-      .filter(Boolean)
-      .join("");
-
     const tags = (project.stack || [])
       .map((item) => `<span class="tag">${item}</span>`)
       .join("");
 
+    const tag = project.link ? "a" : "article";
+    const linkAttrs = project.link ? `href="${project.link}" target="_blank" rel="noopener"` : "";
+
     return `
-      <article class="project-card">
+      <${tag} class="project-card" ${linkAttrs}>
         <div class="project-card-head">
           <h3>${project.name}</h3>
           <span class="badge ${badgeClass}">${badgeLabel}</span>
         </div>
         <p>${project.description}</p>
         <div class="tag-list">${tags}</div>
-        ${links ? `<div class="project-card-links">${links}</div>` : ""}
-      </article>
+      </${tag}>
     `;
   }).join("");
 }

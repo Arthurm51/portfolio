@@ -1,16 +1,16 @@
 // Data for the "Projects" section (English version).
 // Edit this array to add your personal/open source projects.
 // status: "pass" (published project) | "pending" (placeholder, not filled in yet)
+// link: when set, the whole card becomes a single link to that URL.
 
 const PROJECTS = [
   {
     status: "pass",
     name: "CTFL Foundation Level Study Notes",
     description:
-      "Personal study repo for the ISTQB CTFL 4.0 certification: annotated syllabus, flashcards, study materials, slides, and practice exams.",
+      "Study guide for the ISTQB CTFL 4.0 certification: annotated syllabus, flashcards, study materials, slides, and practice exams.",
     stack: ["ISTQB CTFL", "Software Testing", "Markdown"],
-    repoUrl: "https://github.com/Arthurm51/CTFL",
-    demoUrl: "https://arthurm51.github.io/CTFL/",
+    link: "https://arthurm51.github.io/CTFL/",
   },
   {
     status: "pending",
@@ -18,15 +18,13 @@ const PROJECTS = [
     description:
       "[E.g.: personal automation suite, test framework, QA script, etc.]",
     stack: ["[stack]"],
-    repoUrl: "",
-    demoUrl: "",
+    link: "",
   },
   {
     status: "pending",
     name: "[Third project]",
     description: "[Reserved space — add when ready.]",
     stack: ["[stack]"],
-    repoUrl: "",
-    demoUrl: "",
+    link: "",
   },
 ];
