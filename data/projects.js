@@ -4,13 +4,13 @@
 
 const PROJECTS = [
   {
-    status: "pending",
-    name: "[Nomeie seu projeto aqui]",
+    status: "pass",
+    name: "Estudos CTFL - Foundation Level",
     description:
-      "[Descreva em 1-2 frases o que o projeto faz e qual problema resolve.]",
-    stack: ["[stack]"],
-    repoUrl: "",
-    demoUrl: "",
+      "Repositório pessoal de preparação para a certificação ISTQB CTFL 4.0: syllabus comentado, flashcards, materiais de estudo, slides e simulados de prova.",
+    stack: ["ISTQB CTFL", "Testes de Software", "Markdown"],
+    repoUrl: "https://github.com/Arthurm51/CTFL",
+    demoUrl: "https://arthurm51.github.io/CTFL/",
   },
   {
     status: "pending",
